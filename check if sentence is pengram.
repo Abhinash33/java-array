@@ -1,0 +1,9 @@
+// check the sentence if from a to z charcter present in the sentence then it is called pengram.. 
+public boolean checkIfPangram(String sentence) {
+        for(char i='a'; i<='z';i++){
+            if(!sentence.contains(String.valueOf(i))){
+                return false;
+            }
+        }
+        return true;
+    }
